@@ -1,11 +1,13 @@
-# 🦞 Claw Subsystem: Operation Manual & Technical Guide
+Note: AI Generated Summary
+
+# Claw Subsystem: Operation Manual & Technical Guide
 
 ### System Overview
 The claw operates on an **Automated State Machine**. It does not require manual button presses to open/close. Instead, it uses an ultrasonic distance sensor to decide when to grab, hold, or drop objects based on the arm's height from the ground.
 
 ---
 
-## 🏎️ 1. Driver’s Guide (Competition Day)
+## 1. Driver’s Guide
 *How to drive the robot to make the claw work correctly.*
 
 ### **STEP 1: The Pickup (Grab)**
@@ -29,7 +31,7 @@ The claw operates on an **Automated State Machine**. It does not require manual 
 
 ---
 
-## 🛡️ 2. Safety Features (The "Fumble" Logic)
+## 2. Safety Features (The "Fumble" Logic)
 *What happens if the claw misses?*
 
 If the claw closes but you **do not lift the arm** (height stays below 27 cm):
@@ -40,7 +42,7 @@ If the claw closes but you **do not lift the arm** (height stays below 27 cm):
 
 ---
 
-## 🧠 3. Logic States Explained
+## 3. Logic States Explained
 
 The code cycles through 4 logic states. You can visualize the flow below:
 
